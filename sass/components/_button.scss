@@ -1,0 +1,15 @@
+.btn {
+   background-color: var(--color-primary);
+   font-size:2rem;
+   color:var(--color-white);
+   padding: 1.7rem 2rem;
+   border: none;
+   transition: all .2s;
+   &:focus {
+    outline: none;
+   }
+
+   &:active {
+       transform: translateY(2px);
+   }
+}

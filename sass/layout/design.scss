@@ -1,0 +1,72 @@
+.interior {
+display: flex;
+align-items: center;
+font-size: 4rem;
+font-weight: 700;
+text-transform: uppercase;
+color: var(--color-Grey-dark-1);
+&::before,
+&::after{
+    content: "";
+    height:2px;
+    width: 5rem;
+    display: block;
+    background-color: currentColor;
+}
+
+}
+.paragraph {
+font-size:1.6rem;
+margin-bottom: 3rem;
+color: var(--color-Grey-dark-1);
+}
+.form {
+display: flex;
+align-items: center;
+margin-bottom: 8rem
+}
+.icon {
+height: 2rem;
+width: 2rem;
+fill:var(--color-Grey-dark-1);
+z-index: 10;
+}
+.input {
+font-family: inherit;
+color: inherit;
+font-size: 1.4rem;
+padding:2rem 5rem;
+border: none;
+background-color:var(--color-white);
+box-shadow: var(--shadow-light);
+transition: all .2s;
+margin-left: -3.5rem;
+display: block;
+&:focus {
+    outline: none;
+   width: 100%;
+}
+}
+.story {
+display: flex;
+align-items: center;
+justify-content: center;
+@media only screen and (max-width:$bp-small) {
+    flex-direction: column;
+
+}
+    &__image {
+width:50%;
+margin-right: 3rem;
+@media only screen and (max-width:$bp-small) {
+    width: 100%;
+    margin:0;
+    margin-bottom: 3rem;
+}
+    }
+    &__text {
+font-size: 1.4rem;
+    }
+}
+
+

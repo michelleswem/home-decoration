@@ -1,0 +1,43 @@
+.side-text {
+color:var(--color-Grey-dark-1);
+font-size:2rem;
+font-weight: 700;
+text-align: center;
+margin: 7rem 0;
+@media only screen and (max-width:$bp-medium) {
+   margin:2rem;
+   align-self: center;
+} 
+}
+.side-nav {
+list-style: none;
+text-align: center;
+@media only screen and (max-width:$bp-medium) {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;     
+}
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+            @media only screen and (max-width:$bp-medium) {
+                margin-bottom:0;
+            }
+        }
+
+        @media only screen and (max-width:$bp-medium) {
+            flex: 1;
+        }
+
+    }
+    &__link {
+  &:link,
+  &:visited {
+      font-size: 1.6rem;
+      text-decoration:none;
+color: var(--color-Grey-dark-1);
+
+  }
+    }
+}
