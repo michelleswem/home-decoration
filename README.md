@@ -4,6 +4,9 @@ This project was created using _flexbox_ features.
 
 I translated this UI design to actual codes.
 
+## LIVE PREVIEW
+https://home-decoration-site.netlify.app/
+
 ## Design
 This design Inspiration was gotten from the screen shot below
 <img src ="images/Screenshot__1-work.png" alt = "design image">
